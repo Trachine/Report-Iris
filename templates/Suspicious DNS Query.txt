@@ -1,0 +1,51 @@
+Dear Team KEMKES,
+
+Berikut kami informasikan terdapat ticket yang sudah kami buat mohon untuk dilakukan pengecekan dan dilakukan tindakan terhadap mitigasi yang sudah kami sampaikan ditiket tersebut:
+
+===============================
+
+Sec. Event : {event_name}<br>
+Category : High<br>
+Magnitude : 7<br>
+Waktu Deteksi : {tanggal} {waktu}<br>
+
+===============================
+
+Deskripsi Event :<br>
+Tim SOC mendeteksi adanya komunikasi anomali yang terjadi pada
+
+src ip :<br>
+{src_ip}	 
+
+src Country :<br>
+{src_country} 
+
+dst ip :<br>
+{dst_ip}
+
+dst Country :<br>
+({dst_asset})
+
+dst port :<br>
+{dst_port} 
+
+Query :<br>
+{query}
+
+URL/DNS :<br>
+{url}
+
+===============================
+
+mengindikasikan bahwa ada permintaan DNS (Domain Name System) yang mencurigakan—biasanya karena domain yang diminta terhubung dengan aktivitas berbahaya, anomali pola akses, atau indikasi komunikasi command and control (C2) dari malware.
+
+===============================
+
+Mitigasi :
+- Blokir Domain & Komunikasi Berbahaya
+- Menerapkan Rules Restricted Outbound pada firewall untuk spesifik App yang sering menjadi jalur komunikasi Malicious Software. Seperti SMB, dll.
+
+===============================
+
+Terimakasih,<br>
+SOC Kemenkes

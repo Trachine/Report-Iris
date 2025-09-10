@@ -1,0 +1,55 @@
+Dear Team KEMKES,
+
+Berikut kami informasikan terdapat ticket yang sudah kami buat mohon untuk dilakukan pengecekan dan dilakukan tindakan terhadap mitigasi yang sudah kami sampaikan ditiket tersebut:
+
+===============================
+
+Sec. Event : {event_name}<br>
+Category : Medium<br>
+Magnitude : 6<br>
+Waktu Deteksi : {tanggal} {waktu}<br>
+
+===============================
+
+Deskripsi Event :<br>
+Tim SOC mendeteksi adanya komunikasi anomali yang terjadi pada
+
+src ip :<br>
+{src_ip}	 
+
+src Country :<br>
+{src_country} 
+
+dst ip :<br>
+{dst_ip}
+
+dst Country :<br>
+({dst_asset})
+
+dst port :<br>
+{dst_port} 
+
+Query :<br>
+{query}
+
+URL/DNS :<br>
+{url}
+
+===============================
+
+event ini mendeteksi Realtek Jungle SDK rentan terhadap kerentanan eksekusi kode jarak jauh saat memproses permintaan UDP tertentu yang dibuat secara khusus. Kerentanan ini disebabkan oleh kurangnya pemeriksaan yang tepat pada permintaan UDP, yang menyebabkan kerentanan eksekusi kode jarak jauh yang dapat dieksploitasi. Penyerang dapat mengeksploitasi kerentanan ini dengan mengirimkan permintaan UDP yang dibuat secara khusus. Serangan yang berhasil dapat menyebabkan eksekusi kode jarak jauh.
+
+Mohon untuk ditindak lanjuti terkait IP tersebut.<br>
+Action External : Event ini sudah di ekskalasikan ke Layer 2
+
+===============================
+
+Mitigasi :
+- batasi hak akses
+- nonaktifkan Layanan atau Fitur yang Tidak Perlu
+- Lakukan pemindaian sesering mungkin
+
+===============================
+
+Terimakasih,<br>
+SOC Kemenkes

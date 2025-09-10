@@ -1,0 +1,30 @@
+353	Putra	SOC-20250910-13284	Log Activity				Gitscanner Traffic Detected(95497)	Medium	10/09/2025	1:48:00	10/09/2025	1:53	0 Malam, 0 Jam 5 Menit 				Block IP on EDL	Close	Public to Public	206.189.20.193	United States	103.74.143.121	443	Internal					config	
+354	Putra	SOC-20250910-13285	Log Activity				ZGrab Application Layer Scanner Detection	Medium	10/09/2025	1:55:00	10/09/2025	2:00	0 Malam, 0 Jam 5 Menit 				Block IP on EDL	Close	Public to Public	"20.65.194.188
+45.33.109.17
+20.64.105.221
+20.64.104.62"	United States	"103.74.143.82
+103.74.143.138
+202.70.136.32
+202.70.136.35"	"4200
+9016
+2455"	Internal						
+355	Putra	SOC-20250910-13286	Log Activity				"	Nmap Aggressive Option Print Detection"	Medium	10/09/2025	2:21:00	10/09/2025	2:26	0 Malam, 0 Jam 5 Menit 				Block IP on EDL	Close	Public to Public	"138.197.214.95
+45.33.33.190
+46.101.110.251"	United States	"103.74.143.138
+103.74.143.15
+202.70.136.129"	502	Internal						
+356	Putra	SOC-20250910-13287	Log Activity				ENV File Scanning Attempt	Medium	10/09/2025	1:56:00	10/09/2025	3:02	0 Malam, 1 Jam 6 Menit 				Block IP on EDL	Close	Public to Public	"196.251.73.214
+165.232.128.150"	Seychelles	"202.70.136.153
+103.74.143.108"	"443
+80"	Internal					.env	
+357	Putra	SOC-20250910-13288	Log Activity				Spyware Detected	High	10/09/2025	3:00:00	10/09/2025	3:11	0 Malam, 0 Jam 11 Menit 				Block Domain on EDL	Close	Public to Public	202.70.136.2	Indonesia	8.8.8.8	53	United States				mazzardhaida.shop		
+358	Putra	SOC-20250910-13289	Log Activity				Suspicious DNS Query	High	10/09/2025	6:47	10/09/2025	6:50	0 Malam, 0 Jam 3 Menit 							"103.74.164.248
+"	Indonesia	8.8.8.8	53	United States				"yeyuw2940637fafa.com
+wwqai2940637fafa.com
+wmdww2940637fafa.com
+uaaqp2940637fafa.com
+zzphn2940637fafa.com
+xnvho2940637fafa.com
+wsowk2940637fafa.com
+xvxyi2940637fafa.com
+yazts2940637fafa.com"		
