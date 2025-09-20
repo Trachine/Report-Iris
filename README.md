@@ -31,13 +31,19 @@ README.md               # Dokumentasi
 ## ⚙️ Cara Menjalankan
 
 1. Pastikan Python ≥ 3.8 sudah terinstal.
-2. Jalankan script utama:
+2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Jalankan script utama:
 
 ```bash
 python main.py
 ```
 
-3. Pilih mode sesuai kebutuhan:
+4. Pilih mode sesuai kebutuhan:
 
 | Mode | Deskripsi                 |
 | ---- | ------------------------- |
