@@ -52,6 +52,7 @@ python main.py
 | 3    | Proses XML → Excel Export |
 | 4    | Buat Template Event       |
 | 5    | Cek False Positive        |
+| 6    | Tambah Event ke Database  |
 | 99   | Exit                      |
 
 ---
