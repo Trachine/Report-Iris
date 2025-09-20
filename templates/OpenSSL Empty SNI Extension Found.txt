@@ -1,0 +1,51 @@
+Dear Team KEMKES,
+
+Berikut kami informasikan terdapat ticket yang sudah kami buat mohon untuk dilakukan pengecekan dan dilakukan tindakan terhadap mitigasi yang sudah kami sampaikan ditiket tersebut:
+
+===============================
+
+Sec. Event : {event_name}<br>
+Category : {severity}<br>
+Magnitude : {sev_magnitude}<br>
+Waktu Deteksi : {tanggal} {waktu}<br>
+
+===============================
+
+Deskripsi Event :<br>
+Tim SOC mendeteksi adanya komunikasi anomali yang terjadi pada<br>
+
+src ip :<br>
+{src_ip}	 
+
+src Country :<br>
+{src_country} 
+
+dst ip :<br>
+{dst_ip}
+
+dst port :<br>
+{dst_port} 
+
+dst Country :<br>
+{dst_country}
+
+Query :<br>
+{query}
+
+URL/DNS :<br>
+{url}
+
+===============================
+
+Terdeteksi lalu lintas TLS/SSL yang menggunakan ekstensi SNI (Server Name Indication) kosong pada library OpenSSL. Normalnya, field SNI digunakan untuk menentukan nama host tujuan saat negosiasi TLS, sehingga server dapat memberikan sertifikat yang tepat. Jika nilai SNI kosong, hal ini tidak sesuai praktik standar dan sering dipakai oleh pemindai, bot, atau tool otomatis untuk menyembunyikan tujuan koneksi. Aktivitas ini bisa menunjukkan adanya upaya reconnaissance, koneksi abnormal, atau software yang tidak dikonfigurasi dengan benar.
+
+===============================
+
+Mitigasi :<br>
+- Verifikasi apakah ada aplikasi internal yang sengaja menggunakan koneksi tanpa SNI.
+- Hardening server TLS/SSL (gunakan versi terbaru, nonaktifkan protokol lama).- Update patch OpenSSL di host terkait.
+
+===============================
+
+Terimakasih,<br>
+SOC Kemenkes

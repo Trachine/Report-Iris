@@ -1,0 +1,54 @@
+Dear Team KEMKES,
+
+Berikut kami informasikan terdapat ticket yang sudah kami buat mohon untuk dilakukan pengecekan dan dilakukan tindakan terhadap mitigasi yang sudah kami sampaikan ditiket tersebut:
+
+===============================
+
+Sec. Event : {event_name}<br>
+Category : {severity}<br>
+Magnitude : {sev_magnitude}<br>
+Waktu Deteksi : {tanggal} {waktu}<br>
+
+===============================
+
+Deskripsi Event :<br>
+Tim SOC mendeteksi adanya komunikasi anomali yang terjadi pada<br>
+
+src ip :<br>
+{src_ip}	 
+
+src Country :<br>
+{src_country} 
+
+dst ip :<br>
+{dst_ip}
+
+dst port :<br>
+{dst_port} 
+
+dst Country :<br>
+{dst_country}
+
+Query :<br>
+{query}
+
+URL/DNS :<br>
+{url}
+
+===============================
+
+Terdeteksi aktivitas yang konsisten dengan penggunaan Nmap Scripting Engine (NSE) — yaitu pemindaian jaringan yang memanfaatkan skrip otomatis untuk mengidentifikasi layanan, kerentanan, atau konfigurasi host. Aktivitas ini bisa berasal dari pemindaian sah (tim internal / pentest terjadwal) atau pemindaian berbahaya oleh pihak ketiga yang mencari celah untuk eksploitasi, reconnaissance, atau persiapan serangan.
+
+Mohon untuk ditindak lanjuti terkait IP tersebut.<br>
+Action External : Event ini sudah di eskalasi ke Layer 2 dan Layer 3
+
+===============================
+
+Mitigasi :<br>
+- Identifikasi sumber: cek host/source IP yang melakukan scan dan catat waktu, frekuensi, dan target.
+- Verifikasi otorisasi: konfirmasi apakah ini pemindaian terjadwal/pentest dari tim internal atau vendor.
+
+===============================
+
+Terimakasih,<br>
+SOC Kemenkes

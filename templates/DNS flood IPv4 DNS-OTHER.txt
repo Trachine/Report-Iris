@@ -1,0 +1,53 @@
+Dear Team KEMKES,
+
+Berikut kami informasikan terdapat ticket yang sudah kami buat mohon untuk dilakukan pengecekan dan dilakukan tindakan terhadap mitigasi yang sudah kami sampaikan ditiket tersebut:
+
+===============================
+
+Sec. Event : {event_name}
+Category : {severity}
+Magnitude : {sev_magnitude}
+Waktu Deteksi : {tanggal} {waktu}
+
+===============================
+
+Deskripsi Event :<br>
+Tim SOC mendeteksi adanya komunikasi anomali yang terjadi pada
+
+src ip :<br>
+{src_ip}	 
+
+src Country :<br>
+{src_country} 
+
+dst ip :<br>
+{dst_ip}
+
+dst port :<br>
+{dst_port} 
+
+dst Country :<br>
+{dst_country}
+
+Query :<br>
+{query}
+
+URL/DNS :<br>
+{url}
+
+===============================
+
+event ini "DNS-Protection - DNS Flood IPv4 DNS-OTHER" mengindikasikan adanya deteksi dan potensi mitigasi terhadap serangan flood DNS (Domain Name System) yang menargetkan server DNS menggunakan paket IPv4 dan jenis kueri DNS selain kueri standar (seperti A, AAAA, CNAME).
+
+===============================
+
+Mitigasi :<br>
+- implementasikan Rate Limiting
+- Penggunaan DNSSEC (DNS Security Extensions)
+- Terapkan WAF.
+- Pembatasan Kueri Rekursif ke Klien yang Sah
+
+===============================
+
+Terimakasih,<br>
+SOC Kemenkes
