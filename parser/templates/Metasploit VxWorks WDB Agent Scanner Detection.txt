@@ -1,0 +1,52 @@
+Dear Team KEMKES,
+
+Berikut kami informasikan terdapat ticket yang sudah kami buat mohon untuk dilakukan pengecekan dan dilakukan tindakan terhadap mitigasi yang sudah kami sampaikan ditiket tersebut:
+
+===============================
+
+Sec. Event : {event_name}<br>
+Category : {severity}<br>
+Magnitude : {sev_magnitude}<br>
+Waktu Deteksi : {tanggal} {waktu}<br>
+
+===============================
+
+Deskripsi Event :<br>
+Tim SOC mendeteksi adanya komunikasi anomali yang terjadi pada<br>
+
+src ip :<br>
+{src_ip}	 
+
+src Country :<br>
+{src_country} 
+
+dst ip : <br>
+{dst_ip} 
+
+dst port :<br>
+{dst_port} 
+
+dst Country :<br>
+{dst_country} 
+
+Query :<br>
+{query}
+
+URL/DNS :<br>
+{url}
+
+===============================
+
+Event Metasploit VxWorks WDB Agent Scanner Detection menunjukkan bahwa sistem keamanan Anda telah mendeteksi pemindaian yang dilakukan oleh alat Metasploit, yang digunakan untuk mengeksploitasi kerentanannya di sistem yang menjalankan VxWorks, sebuah sistem operasi waktu nyata (RTOS) yang sering digunakan dalam embedded systems.
+
+===============================
+
+Mitigasi :<br>
+- Verifikasi apakah WDB Agent sedang aktif di port yang tidak seharusnya terbuka pada jaringan internal Anda
+- Blokir Akses ke Port Tertentu
+- Perkuat Keamanan Sistem Embedded
+
+===============================
+
+Terimakasih,<br>
+SOC Kemenkes

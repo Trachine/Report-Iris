@@ -1,0 +1,51 @@
+Dear Team KEMKES,
+
+Berikut kami informasikan terdapat ticket yang sudah kami buat mohon untuk dilakukan pengecekan dan dilakukan tindakan terhadap mitigasi yang sudah kami sampaikan ditiket tersebut:
+
+===============================
+
+Sec. Event : {event_name}<br>
+Category : {severity}<br>
+Magnitude : {sev_magnitude}<br>
+Waktu Deteksi : {tanggal} {waktu}<br>
+
+===============================
+
+Deskripsi Event :<br>
+Tim SOC mendeteksi adanya komunikasi anomali yang terjadi pada<br>
+
+src ip :<br>
+{src_ip}	 
+
+src Country :<br>
+{src_country} 
+
+dst ip :<br>
+{dst_ip}
+
+dst port :<br>
+{dst_port} 
+
+dst Country :<br>
+{dst_country}
+
+Query :<br>
+{query}
+
+URL/DNS :<br>
+{url}
+
+===============================
+
+event yang peringatan kritis yang mengindikasikan bahwa sistem keamanan Anda (seperti firewall, Intrusion Prevention System/IPS, Web Application Firewall/WAF, atau Secure Web Gateway) telah mengidentifikasi data atau kode berbahaya yang tertanam dalam lalu lintas HTTP.
+
+===============================
+
+Mitigasi :<br>
+- Sanitasi Keluaran (Output Encoding)
+- implementasi Honeypot dan Honeynet
+
+===============================
+
+Terimakasih,<br>
+SOC Kemenkes

@@ -1,0 +1,53 @@
+Dear Team KEMKES,
+
+Berikut kami informasikan terdapat ticket yang sudah kami buat mohon untuk dilakukan pengecekan dan dilakukan tindakan terhadap mitigasi yang sudah kami sampaikan ditiket tersebut:
+
+===============================
+
+Sec. Event : {event_name}<br>
+Category : {severity}<br>
+Magnitude : {sev_magnitude}<br>
+Waktu Deteksi : {tanggal} {waktu}<br>
+
+===============================
+
+Deskripsi Event :<br>
+Tim SOC mendeteksi adanya komunikasi anomali yang terjadi pada<br>
+
+src ip :<br>
+{src_ip}	 
+
+src Country :<br>
+{src_country} 
+
+dst ip :<br>
+{dst_ip}
+
+dst port :<br>
+{dst_port} 
+
+dst Country :<br>
+{dst_country} 
+
+Query :<br>
+{query}
+
+URL/DNS :<br>
+{url}
+
+===============================
+
+Alert ini menandakan Serangan ini memanfaatkan server Memcached yang terbuka ke internet untuk melakukan Distributed Denial of Service (DDoS).
+
+===============================
+
+Mitigasi :<br>
+- Nonaktifkan UDP pada Memcached (gunakan TCP saja)
+- Batasi akses hanya dari IP terpercaya (gunakan firewall)
+- Update Memcached ke versi aman
+- Gunakan DDoS protection / WAF
+
+===============================
+
+Terimakasih,<br>
+SOC Kemenkes

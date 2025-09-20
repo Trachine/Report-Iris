@@ -1,0 +1,52 @@
+Dear Team KEMKES,
+
+Berikut kami informasikan terdapat ticket yang sudah kami buat mohon untuk dilakukan pengecekan dan dilakukan tindakan terhadap mitigasi yang sudah kami sampaikan ditiket tersebut:
+
+===============================
+
+Sec. Event : {event_name}<br>
+Category : {severity}<br>
+Magnitude : {sev_magnitude}<br>
+Waktu Deteksi : {tanggal} {waktu}<br>
+
+===============================
+
+Deskripsi Event :<br>
+Tim SOC mendeteksi adanya komunikasi anomali yang terjadi pada<br>
+
+src ip :<br>
+{src_ip}	 
+
+src Country :<br>
+{src_country} 
+
+dst ip :<br>
+{dst_ip} 
+
+dst port :<br>
+{dst_port} 
+
+dst Country :<br>
+{dst_country}
+
+Query :<br>
+{query}
+
+URL/DNS :<br>
+{url}
+
+===============================
+
+Terdeteksi trafik dari src ip menuju dst ip melalui port. Aktivitas ini dikenali sebagai {event_name}, yaitu upaya pemindaian terhadap repositori Git yang dapat mengekspos file konfigurasi atau informasi sensitif proyek. Insiden ini memiliki kategori Medium dengan magnitude 4. Meskipun berisiko, trafik tersebut masih diizinkan karena termasuk dalam aturan firewall ALLOW UNTRUST TO TRUST. 
+
+===============================
+
+Mitigasi :<br>
+- Tinjau rule firewall "ALLOW UNTRUST TO TRUST"
+- Pasang WAF atau reverse proxy
+- Audit file publik pada server web
+
+===============================
+
+Terimakasih,<br>
+Kemenkes CSIRT
