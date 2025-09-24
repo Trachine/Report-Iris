@@ -30,7 +30,7 @@ def main_menu():
 
     mode = Prompt.ask(
         "[bold white]Pilih mode[/bold white]",
-        choices=["1", "2", "3", "4", "5", "99"],
+        choices=["1", "2", "3", "4", "5","6", "99"],
         default="1"
     )
     console.print(f"\n[cyan]>> Mode dipilih:[/cyan] {mode}\n")
